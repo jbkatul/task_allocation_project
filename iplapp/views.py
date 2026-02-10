@@ -18,3 +18,5 @@ def divison(a, b):
         return "Cannot divide by zero"
 result = divison(10, 2)
 print(result)
+
+print("end of the code")
