@@ -24,4 +24,15 @@ def subtraction(a, b):
 result = subtraction(10, 5)
 print(result)
 
+#finiding the largest number among three numbers
+def largest(a, b, c):
+    if a >= b and a >= c:
+        return a
+    elif b >= a and b >= c:
+        return b
+    else:
+        return c
+result = largest(10, 20, 15)
+print(result)
+
 print("end of the code")
