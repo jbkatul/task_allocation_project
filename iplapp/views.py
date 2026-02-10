@@ -12,3 +12,7 @@ def fibonacci(n):
 print("End")
 print("coding")
 
+
+
+def is_palindrome(s):
+    return s == s[::-1]
