@@ -19,4 +19,9 @@ def divison(a, b):
 result = divison(10, 2)
 print(result)
 
+def subtraction(a, b):
+    return a - b    
+result = subtraction(10, 5)
+print(result)
+
 print("end of the code")
