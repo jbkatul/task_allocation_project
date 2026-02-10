@@ -1,11 +1,12 @@
 from django.shortcuts import render
 
 # Create your views here.
-# by harshada
+# by Nisha Kotecha
 
-def even_no(addtion):
-    if addition % 2 == 0:
-        return "Even"
-    else:
-        return "Odd"
+a=10
+b=20    
+if a>b:
+    print("a is greater than b")    
+else:
+    print("b is greater than a")
 
