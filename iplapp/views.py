@@ -1,11 +1,18 @@
 from django.shortcuts import render
 
 # Create your views here.
-# by harshada
+# by juilee
 
-def even_no(addtion):
-    if addition % 2 == 0:
-        return "Even"
-    else:
-        return "Odd"
+def print_list(items):
+    for item in items:
+        print(item)
+    num=[1,2,3,4,5]   
+print_list(num)
+print("end.....coding")
+print("I am done")
 
+def addition(a,b) :
+    sum = a+b
+addition(5,5)
+print(sum)
+print("end")
