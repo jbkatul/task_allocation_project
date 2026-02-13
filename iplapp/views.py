@@ -1,11 +1,11 @@
 from django.shortcuts import render
 
 # Create your views here.
-# by harshada
+# by vaishnavi
+size = 5
 
-def even_no(addtion):
-    if addition % 2 == 0:
-        return "Even"
-    else:
-        return "Odd"
-
+for i in range(5):
+    for j in range(5):
+        print("*", end=" ")
+    print()
+    print("end")
