@@ -1,9 +1,11 @@
 from django.shortcuts import render
 
 # Create your views here.
-# This is Saiprasad => 
+# by harshada
 
-def reverseString(str):
-    return str[::-1]
+def even_no(addtion):
+    if addition % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
 
-print(reverseString("saiprasad"))
